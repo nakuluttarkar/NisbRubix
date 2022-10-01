@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: rgb(11, 4, 59);
+}
+
+
+/* styling for the header section */
+.jumbotron{
+    background: url('images/NewBg.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-color: blue; */
+    height: 550px;
+    margin-top: 0px;
+}
+
+.jumbotron .row{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: -40px;
+    
+       
+}
+
+/* styles for logos */
+.jumbotron .row .logos{
+    display: flex; 
+}
+
+.jumbotron .row .logos .column {
+    flex: 20%;
+    padding: 5px;
+  }
+
+.jumbotron .row .logos img{
+    height:70px; 
+}
+
+.jumbotron .row .logo-img{
+    
+    top:0px;
+    left:0px;
+    
+    height:70px;
+    width: 70px;
+}
+
+.jumbotron .row .content{
+    justify-content: center;
+    align-items: center;
+    color: rgb(246, 234, 234);
+    margin-top: 20px;
+}
+
+.jumbotron .row .content h2{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.jumbotron .row .content h1{
+    /* background-color: red; */
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 65px;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.jumbotron .row .content p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.jumbotron .row .content h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.jumbotron .row .content .countdown{
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron .row .content .countdown div{
+    flex-basis: 100px;
+}
+
+.jumbotron .row .content .countdown p{
+    font-size: 60px;
+    margin-bottom: -15px;
+}
+
+.jumbotron .row .content .countdown span{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.events{
+    margin-left: 20px;
+    /* justify-content: center; */
+    align-content: center;
+    text-align: center;
+}
+
+.events .event-card{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: center;
+    gap:20px;
+    
+}
+
+@media(max-width: 1024px){
+    .events .event-card{
+        grid-template-columns: repeat(1,500px);
+    }
+}
+
+.event-card-1 ,.event-card-2, .event-card-3, .event-card-4{
+    width: 500px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 10px 0 rgb(0, 0, 0);
+    border-radius: 4px;
+    /* background-color: red; */
+}
+
+img{
+    border-radius: 4px;;
+    height:350px;
+    width: 500px; 
+    align-items: center;
+}
+
+.events .container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
