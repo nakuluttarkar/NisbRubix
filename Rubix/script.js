@@ -5,7 +5,7 @@ const mins = 1000 * 60;
 const sec = 1000;
 
 //Setting the date and time of the event
-let EventDate = new Date("Oct 2, 2022 5:00:00").getTime();
+let EventDate = new Date("Apr 2, 2023 5:00:00").getTime();
 
 //calling tick function every 1000 ms
 let timer = setInterval(tick,1000);
